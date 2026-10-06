@@ -2,7 +2,6 @@ from problem2 import SinglyLinkedList
 from problem3 import ways
 from problem4 import SortedDoublyLinkedList
 
-
 def test_singly():
     a = SinglyLinkedList()
     assert len(a) == 0 and not a.delete(1)
