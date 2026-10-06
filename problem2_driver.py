@@ -1,7 +1,6 @@
 import sys
 from problem2 import SinglyLinkedList
 
-
 def main():
     linked_list = SinglyLinkedList()
     arguments_needed = {
