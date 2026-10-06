@@ -1,0 +1,20 @@
+# Normal operations
+append 12
+append 3
+append 5
+prepend 1
+get 2
+delete 3
+update 0 8
+append 7
+print_list
+len
+find 5
+insert 2 99
+delete_at 2
+# Invalid inputs: should warn and continue
+delete missing
+get 999
+insert bad 3
+unknown 1
+append
